@@ -76,7 +76,6 @@ IntelliJを日本語化したい場合は下記を参考にしてください。
 [【IntelliJ IDEA 日本語化】](http://qiita.com/makoto2468/items/6abf614b82cab865b745)  
 
 
-
 ### プラグインの設定
 1. IntelliJを起動し、Configre > Settings を選択します。  
 ![プラグイン設定1](image/plugin_setteing1-1.png)  
@@ -87,7 +86,8 @@ IntelliJを日本語化したい場合は下記を参考にしてください。
 1. 検索バーに`Lombok`と入力し、Lombok Pluginを選択します。  
    右側に表示されるInstallボタンを押下してください。  
    ※検索結果が表示されない場合はプロキシ問題である可能性があります。  
-   [参考 - プロキシ](###プロキシの設定)の設定を参照してください。  
+   [参考 - プロキシ](#ProxySetting)の設定を参照してください。  
+
 ![プラグイン設定3](image/plugin_setteing3.png)  
 
 1. 同様に、検索バーに`Jackson`と入力し、Jackson Generator Pluginを選択します。  
@@ -167,7 +167,7 @@ Herokuにログインした状態で、READMEの[環境構築]にある、デプ
 
 ## 参考
 
-
+<a name ="ProxySetting"> 
 ### プロキシの設定
 自身のPCにプロキシが設定されている場合、別途設定が必要となります。  
 ※インターン当日はプロキシ設定が無い状態で行います。  
