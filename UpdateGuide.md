@@ -34,44 +34,25 @@ https://github.com/[Githubアカウント名]/tiscon1
 
 スタート > すべてのプログラム > アクセサリ > コマンドプロンプトを選択してください。
 
-
-
 ### tiscon1格納フォルダパスの確認
 
 Githubからcloneしてきた際のtiscon1格納フォルダパスを調べます。  
 
-1. IntelliJを起動します。
+1. IntelliJを起動します。  
 
-1. Project View > 「tiscon1」上で右クリック > File Pathを選択します。
+1. Project View > 「tiscon1」上で右クリック > File Pathを選択します。  
+![事前準備1](image/updateguide3.png)  
 
-![事前準備1](image/updateguide3.png)
+1. tiscon1を選択します。  
+![事前準備2](image/updateguide4.png)  
 
-
-
-1. tiscon1を選択します。
-
-![事前準備2](image/updateguide4.png)
-
-
-
-1. tiscon1の格納フォルダが開きます。さらにtiscon1を選択します。
-
+1. tiscon1の格納フォルダが開きます。さらにtiscon1を選択します。  
 ![事前準備3](image/updateguide5.png)
 
-
-
-1. 上部のボックス上で右クリック > アドレスの編集を選択すると、tiscon1の格納フォルダパスが表示されます。
-
-画像例では`C:\Users\ユーザー\IdeaProjects\tiscon1`がtiscon1の格納フォルダパスです。
-
-![事前準備4](image/updateguide6.png)
-
-<br>
-
-![事前準備5](image/updateguide7.png)
-
-<br>
-
+1. 上部のボックス上で右クリック > アドレスの編集を選択すると、tiscon1の格納フォルダパスが表示されます。  
+画像例では`C:\Users\ユーザー\IdeaProjects\tiscon1`がtiscon1の格納フォルダパスです。  
+![事前準備4](image/updateguide6.png)<br>
+![事前準備5](image/updateguide7.png)<br>
 ![事前準備6](image/updateguide8.png)
 
 
