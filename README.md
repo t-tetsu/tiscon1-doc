@@ -227,7 +227,7 @@ Herokuにログインした状態で、READMEの[環境構築]にある、デプ
 **Webアプリケーション動作のための設定**  
   
 1. IntelliJを起動し、Project Viewより tiscon1 > respository > impl内のCachedGenreRepositoryをひらきます。
-1. findFromApiクラスを以下の様に編集します。
+1. findFromApiメソッドを以下の様に編集します。
  
  編集前
  
