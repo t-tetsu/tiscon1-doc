@@ -10,10 +10,22 @@
 ※tiscon1格納フォルダは、本ガイドの「参考-tiscon1格納フォルダパスの確認」を参照してください。  
 ※コマンドプロンプト上にコピーした文字列を張り付ける場合、右クリック > 貼り付け を選択してください。  
 
+1．リモートリポジトリの追加
+https://github.com/tiscon/tiscon1をリモートリポジトリとして登録します。  
+`git remote add tiscon1_master https://github.com/tiscon/tiscon1.git`を実行してください。  
+`git remote -v`を実行し、「tiscon1_master」があることを確認します。  
+
+1. user.nameの確認
+`git config -l`を実行します。  
+表示された設定値一覧内に「user.name」と「user.email」があり、設定されていることを確認します。  
+※設定されていなかった場合、以下のコマンドを実行してください。  
+`git config --global user.name Githubのアカウント名`  
+`git config --global user.email emailアドレス`  
+
 1. fetch  
-https://github.com/tiscon/tiscon1 から最新の状態を取得します。  
-`git fetch https://github.com/tiscon/tiscon1 master`を実行してください。  
-`git branch -a`を実行し、新しく作成されるリモートブランチを確認してください。
+tiscon1_master から最新の状態を取得します。  
+`git fetch tiscon1_master`を実行してください。  
+`git branch -a`を実行し、「remotes/tiscon1_master/master」があることを確認してください。
 
 1. マージされるブランチの最新化  
 forkしたリポジトリを最新化します。  
@@ -22,7 +34,7 @@ forkしたリポジトリを最新化します。
 
 1. merge  
 forkしたリポジトリにfork元のリポジトリをマージします。  
-`git merge --no-ff https://github.com/tiscon/tiscon1/master`を実行してください。  
+`git merge --no-ff tiscon1_master/master`を実行してください。  
 ![merge実行例](image/updateguide9.png)
 
 1. Githubの最新化  
@@ -30,7 +42,7 @@ forkしたリポジトリにfork元のリポジトリをマージします。
 `git push origin master`を実行してください。  
 ※ユーザ名とパスワードは自身のGithubのアカウント情報を入力してください。  
 この作業終了後、Githubのマイページが最新化されていることが確認できます。  
-https://github.com/[Githubのアカウント名]/tiscon1
+https://github.com/Githubのアカウント名/tiscon1
 
 1. 最新状態での動作確認  
 環境構築手順内の「ローカルでの稼働確認」を行い、更新が反映されていることを確認してください。  
