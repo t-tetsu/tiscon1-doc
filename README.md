@@ -82,7 +82,7 @@ IntelliJを日本語化したい場合は下記を参考にしてください。
 
 
 ### プラグインの設定
-1. IntelliJを起動し、Configre > Settings を選択します。  
+1. IntelliJを起動し、Configure > Settings を選択します。  
 ![プラグイン設定1](image/plugin_setteing1-1.png)  
 
 1. Settingsウィンドウが表示されるので、左のバーからPluginsを選択し、Browse repositories...ボタンを押下します。  
@@ -91,7 +91,7 @@ IntelliJを日本語化したい場合は下記を参考にしてください。
 1. 検索バーに`Lombok`と入力し、Lombok Pluginを選択します。  
    右側に表示されるInstallボタンを押下してください。  
    ※検索結果が表示されない場合はプロキシ問題である可能性があります。  
-   [参考 - プロキシ](#ProxySetting)の設定を参照してください。  
+   [参考 - プロキシ](https://github.com/tiscon/tiscon1-doc/blob/master/ProxyGuide.md)の設定を参照してください。  
 
 ![プラグイン設定3](image/plugin_setteing3.png)  
 
@@ -113,7 +113,9 @@ PaaSの1つであり、Webアプリケーションのオンライン上での公
 ### heroku toolbeltのインストール
 下記サイトの「heroku toolbeltのインストール」を参考に、heroku toolbeltのインストール及び動作確認を行って下さい。  
 　※「1.インストーラーのダウンロード」と「2.動作確認」まで行って下さい。  
-　　「3. heroku認証確認」以降は実施しないでください。
+　　「3. heroku認証確認」以降は実施しないでください。  
+　　下記サイトでは、ダウンロードページのスクリーンショットが最新ではありません。  
+　　ダウンロードページの[Download and install]以下からOSに合ったファイルをダウンロードしてください。  
 
 [【Herokuの準備】](http://www.dcom-web.co.jp/technology/heroku1/)  
 
