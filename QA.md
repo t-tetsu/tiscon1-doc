@@ -1,6 +1,6 @@
-## QA一覧
+#QA一覧
 
-###mvnが正常に動作しない (mvn --versionコマンドが失敗する)
+##mvnが正常に動作しない (mvn --versionコマンドが失敗する)
 
 ![IntelliJのプロキシ設定1](image/qa_javahome.png)  
 ![IntelliJのプロキシ設定1](image/qa_mvnpath.png)  
