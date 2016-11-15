@@ -91,7 +91,7 @@ IntelliJを日本語化したい場合は下記を参考にしてください。
 1. 検索バーに`Lombok`と入力し、Lombok Pluginを選択します。  
    右側に表示されるInstallボタンを押下してください。  
    ※検索結果が表示されない場合はプロキシ問題である可能性があります。  
-   [参考 - プロキシ](ProxyGuide.md)の設定を参照してください。  
+   [参考 - プロキシの設定](ProxyGuide.md)を参照してください。  
 
 ![プラグイン設定3](image/plugin_setteing3.png)  
 
