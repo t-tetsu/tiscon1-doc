@@ -1,5 +1,13 @@
 #QA一覧
+***
+・[mvnが正常に動作しない (mvn --versionコマンドが失敗する)](#path_setting)  
+・[IntelliJでのプロジェクトのcloneができない](#project_clone)  
+・[Make Projectでエラーが発生する](#sdk_setting)  
 
+***
+  
+  
+<a name ="path_setting">
 ##mvnが正常に動作しない (mvn --versionコマンドが失敗する)
 
 　エラー例①  
@@ -25,6 +33,7 @@ JDK,Mavenをインストールしたディレクトリと環境変数が一致�
 ※環境構築手順に記載しているように、ダウンロードしたMavenは「C:\Program Files」に格納してください。そうした場合、Pathの変数値は上記例の通りになります。
   
   
+<a name ="project_clone">
 ##IntelliJでのプロジェクトのcloneができない
 
 下記の問題である可能性があります。確認してみてください。  
@@ -43,6 +52,7 @@ forkできていなかった場合は、もう一度環境構築手順に従い�
 　表示されない場合、Gitのインストールに失敗しています。heroku toolbeltのインストールを再実施して下さい。  
   
   
+<a name ="sdk_setting">
 ##Make Projectでエラーが発生する
 
 　エラー例①  
