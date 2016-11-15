@@ -2,13 +2,13 @@
 
 ##mvnが正常に動作しない (mvn --versionコマンドが失敗する)
 
-　エラー例①
-　<img src="image/qa_javahome.png">
-　エラー例②
-　<img src="image/qa_mvnpath.png">
+　エラー例①  
+　<img src="image/qa_javahome.png">  
+　エラー例②  
+　<img src="image/qa_mvnpath.png">  
 
 JDKまたはMavenの環境変数設定が誤っている可能性があります。  
-JDK,Mavenをインストールしたディレクトリと環境変数が一致しているかを確認してみてください。
+JDK,Mavenをインストールしたディレクトリと環境変数が一致しているかを確認してみてください。  
 (環境変数に指定しているディレクトリが実際に存在しているか確認してください)
 
 #####JDKの環境変数設定
@@ -45,18 +45,16 @@ forkできていなかった場合は、もう一度環境構築手順に従い�
   
 ##Make Projectでエラーが発生する
 
-　エラー例①
-　<img src="image/qa_nosdk.png">
+　エラー例①  
+　<img src="image/qa_nosdk.png">  
 
 Make Projectボタンを押下した時に上図のエラーが表示される場合、プロジェクトに対してSDKが設定されていないことが原因であると考えられます。  
 下記手順に従って、SDKの設定を行って下さい。  
   
 1．[Project Structure]>[Project Settings]>[Project]から、「Project SDK」に環境構築でインストールしたJDKを設定する。  
-　<img src="image/qa_project_structure_1.png">
-  
-　<img src="image/qa_project_structure_2.png">
-  
-　<img src="image/qa_project_structure_3.png">
+　<img src="image/qa_project_structure_1.png">  
+　<img src="image/qa_project_structure_2.png">  
+　<img src="image/qa_project_structure_3.png">  
   
 2．「Project language level」に『8 - Lambdas, type annotations etc.』を設定し、「OK」ボタンを押下する。  
 　<img src="image/qa_project_structure_4.png">
